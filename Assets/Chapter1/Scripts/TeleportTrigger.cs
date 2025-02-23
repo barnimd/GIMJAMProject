@@ -33,7 +33,7 @@ namespace AdvancedHorrorFPS
                 BacksoundManager.Instance.StopBacksound();
 
                 // Teleport Player
-                FirstPersonController.Instance.Teleport(teleportDestination.position);
+                FirstPersonController.GetInstance().Teleport(teleportDestination.position);
 
                 // Mainkan suara teleport (langsung)
                 if (teleportSound != null)

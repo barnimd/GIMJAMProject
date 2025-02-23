@@ -2,6 +2,8 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using System.Collections.Generic;
+
 
 namespace AdvancedHorrorFPS
 {
@@ -13,6 +15,31 @@ namespace AdvancedHorrorFPS
         public InteractionType interactionType;
         public UnityEvent eventToInvokeWhenInteract;
         private bool isGrabbedBefore = false;
+        public List<DoorScript> doorsToUnlock; // Assign all doors in the Inspector
+        public LigthingMadu flickeringLight; // Assign this in the Inspector
+        public Light pointLight;
+
+        private void UnlockAllDoors()
+        {
+            foreach (DoorScript door in doorsToUnlock)
+            {
+                if (door != null)
+                {
+                    door.isLocked = false;
+                    Debug.Log($"Door {door.gameObject.name} unlocked!");
+                }
+            }
+        }
+
+        //IEnumerator FlickerRoutine()
+        //{
+        //    while (true)
+        //    {
+        //        flickerLight.enabled = !flickerLight.enabled; // Toggle light
+        //        float waitTime = Random.Range(minTime, maxTime); // Random flicker speed
+        //        yield return new WaitForSeconds(waitTime);
+        //    }
+        //}
 
         public void Interact()
         {
@@ -26,6 +53,7 @@ namespace AdvancedHorrorFPS
                 AudioManager.Instance.Play_Item_Grab();
                 HeroPlayerScript.Instance.FlashLight.enabled = true;
                 FlashLightScript.Instance.Grabbed();
+                pointLight.enabled = false;
                 if (eventToInvokeWhenInteract != null)
                 {
                     eventToInvokeWhenInteract.Invoke();
@@ -34,8 +62,7 @@ namespace AdvancedHorrorFPS
             }
             else if (itemType == ItemType.Door)
             {
-                if(GetComponent<DoorScript>() != null)
-                    GetComponent<DoorScript>().TryToOpen();
+                GetComponent<DoorScript>().TryToOpen();
             }
             else if (itemType == ItemType.ItemToMaintain)
             {
@@ -52,6 +79,8 @@ namespace AdvancedHorrorFPS
                 {
                     AudioManager.Instance.Play_Item_Grab();
                     GetComponent<KeyScript>().isGrabbed = true;
+                    flickeringLight.StartFlickerMadu();
+                    UnlockAllDoors();
                     HeroPlayerScript.Instance.Grab_Key(GetComponent<KeyScript>().KeyID);
                     if (eventToInvokeWhenInteract != null)
                     {

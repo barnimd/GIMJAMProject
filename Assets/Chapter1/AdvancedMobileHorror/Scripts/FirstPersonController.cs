@@ -6,7 +6,21 @@ namespace AdvancedHorrorFPS
 	[RequireComponent(typeof(CharacterController))]
 	public class FirstPersonController : MonoBehaviour
 	{
-		public float MoveSpeed = 4.0f;
+        private static FirstPersonController instance1;
+
+        public static FirstPersonController GetInstance()
+        {
+            return instance1;
+        }
+
+        private static void SetInstance(FirstPersonController value)
+        {
+            instance1 = value;
+        }
+
+        internal static object Instance => instance;
+
+        public float MoveSpeed = 4.0f;
 		public float SprintSpeed = 6.0f;
 		public float RotationSpeed = 1.0f;
 		public float SpeedChangeRate = 10.0f;
@@ -35,14 +49,38 @@ namespace AdvancedHorrorFPS
 		private float heightChangeSpeed = 6f; // Yükseklik değişim hızı
 		private float heightDelta = 0.05f;
 
-        public static FirstPersonController Instance { get; private set; }
-        private void Start()
+		private void Start()
 		{
-			_controller = GetComponent<CharacterController>();
+            _controller = GetComponent<CharacterController>();
 			originalHeight = _controller.height;
 		}
 
-		private void Update()
+        private void Awake()
+        {
+            if (GetInstance() == null)
+            {
+                SetInstance(this);  // Assign this instance
+            }
+            else
+            {
+                Destroy(gameObject);  // Prevent duplicate instances
+            }
+
+            _controller = GetComponent<CharacterController>();
+        }
+
+        public void Teleport(Vector3 newPosition)
+        {
+            // ✅ Disable CharacterController before teleporting
+            _controller.enabled = false;
+
+            transform.position = newPosition;
+
+            // ✅ Re-enable CharacterController after moving
+            _controller.enabled = true;
+        }
+
+        private void Update()
 		{
 			JumpCrouchAndGravity();
 			GroundedCheck();
@@ -125,8 +163,9 @@ namespace AdvancedHorrorFPS
         }
 
 		private float Stamina = 100;
+        private static readonly object instance;
 
-		private void Move()
+        private void Move()
 		{
 			float targetSpeed = MoveSpeed;
 			if(AdvancedGameManager.Instance.canSprint)
@@ -260,25 +299,5 @@ namespace AdvancedHorrorFPS
 
 			Gizmos.DrawSphere(new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z), GroundedRadius);
 		}
-        private void Awake()
-        {
-            if (Instance == null)
-            {
-                Instance = this;
-                Debug.Log("FirstPersonController Instance dibuat!");
-            }
-            else
-            {
-                Destroy(gameObject);
-            }
-        }
-
-
-        public void Teleport(Vector3 newPosition)
-        {
-            _controller.enabled = false; // Matikan CharacterController sementara
-            transform.position = newPosition;
-            _controller.enabled = true;  // Aktifkan kembali agar tidak ada bug fisika
-        }
-    }
+	}
 }

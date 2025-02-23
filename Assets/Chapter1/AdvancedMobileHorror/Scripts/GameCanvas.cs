@@ -11,10 +11,10 @@ namespace AdvancedHorrorFPS
         public static GameCanvas Instance;
         public Image image_Blinking;
         public Image image_Healing;
-        public GameObject Indicator_BlueLight;
+        //public GameObject Indicator_BlueLight;
         public GameObject Panel_ClickToEscape;
         public Image Image_ClickToEscape;
-        public Image Image_BlueLight;
+        //public Image Image_BlueLight;
         public GameObject Panel_WarningPanel;
         public GameObject Button_Flashlight;
         public GameObject Button_Jump;
@@ -23,7 +23,7 @@ namespace AdvancedHorrorFPS
         public GameObject Image_CaughtBlood;
         public GameObject Button_Pause;
         public LayerMask layerMaskForInteract;
-        public Color BlueLightcolor;
+        //public Color BlueLightcolor;
         public GameObject Panel_GameUI;
         public GameObject Panel_Pause;
         public GameObject Panel_Health;
@@ -41,8 +41,8 @@ namespace AdvancedHorrorFPS
         public Text Text_Health;
         public Text Text_Ammo;
         [HideInInspector]
-        public bool isFlashBlueNow = false;
-        [HideInInspector]
+        //public bool isFlashBlueNow = false;
+        //[HideInInspector]
         public GameObject LastClickedArea;
         [HideInInspector]
         public NoteScript CurrentNote;
@@ -494,36 +494,36 @@ namespace AdvancedHorrorFPS
         {
             FlashLightScript.Instance.FlashLight_Decision(true);
             AudioManager.Instance.Play_Flashlight_Open();
-            if (AdvancedGameManager.Instance.blueUVLightAttack)
-            {
-                Button_Flashlight.GetComponent<Image>().color = BlueLightcolor;
-            }
-            else
-            {
-                GameCanvas.Instance.Button_Flashlight.SetActive(false);
-            }
+            //if (AdvancedGameManager.Instance.blueUVLightAttack)
+            //{
+            //    Button_Flashlight.GetComponent<Image>().color = BlueLightcolor;
+            //}
+            //else
+            //{
+            //    GameCanvas.Instance.Button_Flashlight.SetActive(false);
+            //}
         }
 
-        public void FlashLight_BlueEffect_Down()
-        {
-            if (FlashLightScript.Instance.Light.enabled && !isFlashBlueNow && FlashLightScript.Instance.BlueBattery > 0 && AdvancedGameManager.Instance.blueUVLightAttack)
-            {
-                isFlashBlueNow = true;
-                FlashLightScript.Instance.Light.color = Color.blue;
-                AudioManager.Instance.Play_Flashlight_Close();
-            }
-        }
+        //public void FlashLight_BlueEffect_Down()
+        //{
+        //    if (FlashLightScript.Instance.Light.enabled && !isFlashBlueNow && FlashLightScript.Instance.BlueBattery > 0 && AdvancedGameManager.Instance.blueUVLightAttack)
+        //    {
+        //        isFlashBlueNow = true;
+        //        FlashLightScript.Instance.Light.color = Color.blue;
+        //        AudioManager.Instance.Play_Flashlight_Close();
+        //    }
+        //}
 
-        public void FlashLight_BlueEffect_Up()
-        {
-            if (FlashLightScript.Instance.Light.enabled && isFlashBlueNow && AdvancedGameManager.Instance.blueUVLightAttack)
-            {
-                FlashLightScript.Instance.StopAudioBlueLight();
-                isFlashBlueNow = false;
-                FlashLightScript.Instance.Light.color = Color.white;
-                FlashLightScript.Instance.Light.intensity = 3;
-            }
-        }
+        //public void FlashLight_BlueEffect_Up()
+        //{
+        //    if (FlashLightScript.Instance.Light.enabled && isFlashBlueNow && AdvancedGameManager.Instance.blueUVLightAttack)
+        //    {
+        //        FlashLightScript.Instance.StopAudioBlueLight();
+        //        isFlashBlueNow = false;
+        //        FlashLightScript.Instance.Light.color = Color.white;
+        //        FlashLightScript.Instance.Light.intensity = 3;
+        //    }
+        //}
 
         public void Drop_GrabbedLadder(Transform LadderPutPoint)
         {

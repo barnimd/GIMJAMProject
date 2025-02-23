@@ -62,6 +62,7 @@ namespace AdvancedHorrorFPS
             }
             else if (itemType == ItemType.Door)
             {
+                if (GetComponent<DoorScript>() != null)
                 GetComponent<DoorScript>().TryToOpen();
             }
             else if (itemType == ItemType.ItemToMaintain)

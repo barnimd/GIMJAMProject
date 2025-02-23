@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Mekanik Bara/Scenes_Bara/SetupNewLevel3.unity
+    guid: 3f977287b3cba3a4285ef7d664d33759
   m_configObjects: {}

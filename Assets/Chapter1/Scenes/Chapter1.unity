@@ -1617,6 +1617,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &55896727
 MonoBehaviour:
@@ -1636,7 +1639,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &55896728
 Animation:
   m_ObjectHideFlags: 0
@@ -2123,6 +2125,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &66693103
 MonoBehaviour:
@@ -2142,7 +2147,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &66693104
 Animation:
   m_ObjectHideFlags: 0
@@ -7970,6 +7974,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &299165106
 MonoBehaviour:
@@ -7989,7 +7996,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &299165107
 Animation:
   m_ObjectHideFlags: 0
@@ -8852,7 +8858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &342520045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9353,7 +9359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &355663561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10284,14 +10290,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGrabbed: 0
   Light: {fileID: 0}
-  BlueBattery: 100
   DamageRate: 0.3
   BatterySpendNumber: 10
   audioSource: {fileID: 382192863}
   aimPoint: {fileID: 382192859}
   layerMask:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 0
 --- !u!108 &382192865
 Light:
   m_ObjectHideFlags: 0
@@ -17120,6 +17125,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &463715959
 MonoBehaviour:
@@ -17139,7 +17147,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &463715960
 Animation:
   m_ObjectHideFlags: 0
@@ -19117,6 +19124,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &554757942
 MonoBehaviour:
@@ -19136,7 +19146,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &554757943
 Animation:
   m_ObjectHideFlags: 0
@@ -20174,6 +20183,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &610317606
 MonoBehaviour:
@@ -20193,7 +20205,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &610317607
 Animation:
   m_ObjectHideFlags: 0
@@ -24668,6 +24679,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &791820679
 MonoBehaviour:
@@ -24687,7 +24701,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &791820680
 Animation:
   m_ObjectHideFlags: 0
@@ -24872,6 +24885,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &793768055
 MonoBehaviour:
@@ -24891,7 +24907,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &793768056
 Animation:
   m_ObjectHideFlags: 0
@@ -25776,7 +25791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 084a1a06b97584343b5303cdd0c2acc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetScene: SetupNewLevel3
+  targetScene: Level2
 --- !u!1 &817816238
 GameObject:
   m_ObjectHideFlags: 0
@@ -27406,6 +27421,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &881733269
 MonoBehaviour:
@@ -27425,7 +27443,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &881733270
 Animation:
   m_ObjectHideFlags: 0
@@ -29764,6 +29781,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &965039188
 MonoBehaviour:
@@ -29783,7 +29803,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &965039189
 Animation:
   m_ObjectHideFlags: 0
@@ -36876,6 +36895,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &1241385891
 MonoBehaviour:
@@ -36895,7 +36917,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &1241385892
 Animation:
   m_ObjectHideFlags: 0
@@ -41125,7 +41146,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1403551851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43401,10 +43422,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image_Blinking: {fileID: 702853400}
   image_Healing: {fileID: 832512325}
-  Indicator_BlueLight: {fileID: 1712311685}
   Panel_ClickToEscape: {fileID: 323239895}
   Image_ClickToEscape: {fileID: 323239896}
-  Image_BlueLight: {fileID: 1712311686}
   Panel_WarningPanel: {fileID: 1977761980}
   Button_Flashlight: {fileID: 47341013}
   Button_Jump: {fileID: 355663560}
@@ -43415,7 +43434,6 @@ MonoBehaviour:
   layerMaskForInteract:
     serializedVersion: 2
     m_Bits: 33
-  BlueLightcolor: {r: 0.36320752, g: 0.5460302, b: 1, a: 1}
   Panel_GameUI: {fileID: 105245911}
   Panel_Pause: {fileID: 846777396}
   Panel_Health: {fileID: 711580264}
@@ -43432,7 +43450,6 @@ MonoBehaviour:
   Controller_Touchpad: {fileID: 1347574631}
   Text_Health: {fileID: 1905700173}
   Text_Ammo: {fileID: 22048752}
-  isFlashBlueNow: 0
   LastClickedArea: {fileID: 0}
   CurrentNote: {fileID: 0}
   isPaused: 0
@@ -45321,6 +45338,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &1586939484
 MonoBehaviour:
@@ -45340,7 +45360,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &1586939485
 Animation:
   m_ObjectHideFlags: 0
@@ -48707,6 +48726,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &1706114747
 MonoBehaviour:
@@ -48726,7 +48748,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &1706114748
 Animation:
   m_ObjectHideFlags: 0
@@ -50177,6 +50198,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &1768337371
 MonoBehaviour:
@@ -50196,7 +50220,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &1768337372
 Animation:
   m_ObjectHideFlags: 0
@@ -52105,6 +52128,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &1824032285
 MonoBehaviour:
@@ -52124,7 +52150,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &1824032286
 Animation:
   m_ObjectHideFlags: 0
@@ -52441,6 +52466,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &1835584136
 MonoBehaviour:
@@ -52460,7 +52488,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &1835584137
 Animation:
   m_ObjectHideFlags: 0
@@ -53628,7 +53655,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1873662981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53987,6 +54014,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &1878098706
 MonoBehaviour:
@@ -54006,7 +54036,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &1878098707
 Animation:
   m_ObjectHideFlags: 0
@@ -58498,7 +58527,7 @@ MonoBehaviour:
   GroundedRadius: 0.5
   GroundLayers:
     serializedVersion: 2
-    m_Bits: 513
+    m_Bits: 1
   TopClamp: 89
   BottomClamp: -89
   Camera: {fileID: 942677242}
@@ -61065,6 +61094,9 @@ MonoBehaviour:
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
+  doorsToUnlock: []
+  flickeringLight: {fileID: 0}
+  pointLight: {fileID: 0}
   imageToFill: {fileID: 0}
 --- !u!114 &2133501393
 MonoBehaviour:
@@ -61084,7 +61116,6 @@ MonoBehaviour:
   KeyID_ToOpen: 1
   AngleForOpening: 60
   leftDoor: 1
-  isMainDoor: 0
 --- !u!111 &2133501394
 Animation:
   m_ObjectHideFlags: 0

@@ -60,6 +60,11 @@ namespace AdvancedHorrorFPS
             Vector3 localPlayerPos = transform.InverseTransformPoint(playerPosition);
             float openDirection = localPlayerPos.x >= 0 ? openAngle : -openAngle;
 
+            if(localPlayerPos.x >= 0.5)
+            {
+                openDirection = -openAngle;
+            }
+
             if (!isOpen)
             {
                 targetRotation = Quaternion.Euler(0, transform.eulerAngles.y + openDirection, 0);

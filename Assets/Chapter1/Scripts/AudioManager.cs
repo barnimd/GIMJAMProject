@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
@@ -26,5 +27,15 @@ public class AudioManager : MonoBehaviour
         {
             audioSource.PlayOneShot(clip);
         }
+    }
+
+    internal void PlayDoorOpen()
+    {
+        throw new NotImplementedException();
+    }
+
+    public static implicit operator AudioManager(AudioManagerBara v)
+    {
+        throw new NotImplementedException();
     }
 }

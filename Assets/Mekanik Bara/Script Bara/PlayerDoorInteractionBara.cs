@@ -15,6 +15,7 @@ public class PlayerDoorInteractionBara : MonoBehaviour
                 if (hit.collider.TryGetComponent<DoorTwoWay>(out DoorTwoWay door))
                 {
                     door.UseDoor(transform.position);
+                    AudioManagerBara.Instance.PlayDoorOpen();
                 }
             }
         }

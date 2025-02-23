@@ -37,6 +37,8 @@ public class PlayerInventory : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, 3f, interactableLayer))
         {
+            AudioManagerBara.Instance.PlayItemPickup();
+
             if (hit.collider.CompareTag("Item")) PickUpItem(hit.collider.gameObject);
             else if (hit.collider.CompareTag("Box")) StoreItemInBox();
         }
@@ -114,6 +116,7 @@ public class PlayerInventory : MonoBehaviour
     {
         if (inventory[selectedSlot] != null)
         {
+            AudioManagerBara.Instance.PlayItemDrop();
             GameObject droppedItem = inventory[selectedSlot];
             inventory[selectedSlot] = null; // Kosongkan slot
             inventoryData[selectedSlot] = null; // Kosongkan data item

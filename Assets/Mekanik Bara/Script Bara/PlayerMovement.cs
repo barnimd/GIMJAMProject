@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 5f;
     public float gravity = 9.8f;
 
-    public Transform playerCamera; // Kamera FPP
+    public Transform playerCamera;
     public float mouseSensitivity = 2f;
 
     public Transform groundCheck;
@@ -16,14 +16,20 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
     private float moveSpeed;
     private bool isGrounded;
+    private bool canJump = true;
     private float rotationX = 0f;
+
+    private bool isMoving;
+    private float footstepTimer;
+    public float walkFootstepDelay = 0.5f;
+    public float runFootstepDelay = 0.3f;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         moveSpeed = walkSpeed;
 
-        Cursor.lockState = CursorLockMode.Locked; // Kunci kursor di tengah layar
+        Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
@@ -32,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         Move();
         Jump();
         RotateCamera();
+        HandleFootsteps();
     }
 
     void Move()
@@ -43,15 +50,28 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector3(move.x * moveSpeed, rb.velocity.y, move.z * moveSpeed);
 
         moveSpeed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
+        isMoving = (moveX != 0 || moveZ != 0);
     }
 
     void Jump()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, 0.2f, groundMask);
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (isGrounded)
+        {
+            canJump = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && canJump)
         {
             rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
+            canJump = false;
+
+            // **Stop footstep sound & play jump sound**
+            if (AudioManagerBara.Instance != null)
+            {
+                AudioManagerBara.Instance.bajingloncat(); //  Play Suara Loncat
+            }
         }
     }
 
@@ -61,9 +81,34 @@ public class PlayerMovement : MonoBehaviour
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity;
 
         rotationX -= mouseY;
-        rotationX = Mathf.Clamp(rotationX, -90f, 90f); // Batasi rotasi vertikal agar tidak terbalik
+        rotationX = Mathf.Clamp(rotationX, -90f, 90f);
 
         playerCamera.localRotation = Quaternion.Euler(rotationX, 0, 0);
         transform.Rotate(Vector3.up * mouseX);
+    }
+
+    void HandleFootsteps()
+    {
+        if (!isGrounded || !isMoving)
+        {
+            return;
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            AudioManagerBara.Instance.sfxSource.Stop();  // Stop Footstep Sound
+            Invoke("PlayFootstepSound", 2f);
+            AudioManagerBara.Instance.bajingloncat();
+        }
+
+        footstepTimer -= Time.deltaTime;
+        if (footstepTimer <= 0f)
+        {
+            footstepTimer = Input.GetKey(KeyCode.LeftShift) ? runFootstepDelay : walkFootstepDelay;
+
+            if (AudioManagerBara.Instance != null)
+            {
+                AudioManagerBara.Instance.PlayFootstep(); //  Play Suara Langkah Kaki
+            }
+        }
     }
 }

@@ -17,6 +17,7 @@ public class ItemManager : MonoBehaviour
 
             if (storedItemCount >= requiredItems)
             {
+                AudioManagerBara.Instance.levelcomplete();
                 exitDoor.ActivateDoor(); // Fungsi membuka pintu jika semua barang sudah masuk
             }
         }

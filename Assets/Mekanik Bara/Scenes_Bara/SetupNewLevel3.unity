@@ -3741,6 +3741,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3929893459356514724, guid: 95d89e5b6cb6e734baa1e7083f9e0e16, type: 3}
   m_PrefabInstance: {fileID: 607247018}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &612136370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 612136371}
+  m_Layer: 0
+  m_Name: Pintu_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &612136371
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612136370}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -246.51768, y: -816.63855, z: 1059.85}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &614556915
 GameObject:
   m_ObjectHideFlags: 0
@@ -13891,3 +13922,4 @@ SceneRoots:
   - {fileID: 1633330207}
   - {fileID: 79563634}
   - {fileID: 443188821}
+  - {fileID: 612136371}

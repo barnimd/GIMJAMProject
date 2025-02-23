@@ -344,10 +344,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 1
@@ -643,10 +639,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3
@@ -718,7 +710,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -817,7 +809,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
+  - {fileID: -6922793697723135513, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1302,7 +1294,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2118,10 +2111,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3 (4)
@@ -2325,7 +2314,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2474,7 +2463,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4386,10 +4376,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3 (6)
@@ -4457,7 +4443,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4534,10 +4520,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -5064,7 +5046,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5147,7 +5129,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5185,10 +5167,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 650845854}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 1 (6)
@@ -5494,10 +5472,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 1  (4)
@@ -5692,10 +5666,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842690475}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 2
@@ -5811,7 +5781,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6017,7 +5988,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6444,7 +6416,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 2100000, guid: 086d0e6b47e1fef47b2d1ed4c101d995, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6529,10 +6502,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -7078,10 +7047,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326687461}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 1 (2)
@@ -7191,10 +7156,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -7483,10 +7444,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 903418875}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 3 (3)
@@ -7807,10 +7764,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 2 (8)
@@ -7878,7 +7831,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8567,7 +8520,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9807,7 +9761,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9892,10 +9846,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -10081,10 +10031,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 2 (1)
@@ -10173,10 +10119,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326687461}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 1 (2)
@@ -10350,7 +10292,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10689,10 +10631,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -11601,7 +11539,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: -6922793697723135513, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11644,10 +11582,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1065109742}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 1
@@ -11898,10 +11832,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -12251,7 +12181,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12358,10 +12288,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 903418875}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 1 (3)
@@ -12679,10 +12605,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 1  (1)
@@ -12714,10 +12636,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842690475}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 2 (3)
@@ -13276,10 +13194,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 2 (4)
@@ -13521,10 +13435,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -14311,10 +14221,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 2 (4)
@@ -14341,10 +14247,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842690475}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 3 (1)
@@ -14700,10 +14602,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1065109742}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door sise 2 (1)
@@ -14866,10 +14764,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326687461}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 2 (2)
@@ -15259,7 +15153,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15514,10 +15409,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3 (1)
@@ -15758,7 +15649,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16003,10 +15894,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 650845854}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 1
@@ -16248,10 +16135,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -16577,10 +16460,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -17105,7 +16984,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17254,7 +17133,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17634,10 +17513,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 1  (1)
@@ -17722,10 +17597,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -18014,10 +17885,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: 'Door size 1 '
@@ -18096,10 +17963,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -18208,7 +18071,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18821,10 +18684,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3 (3)
@@ -18890,10 +18749,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -18968,10 +18823,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -19193,10 +19044,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 2 (6)
@@ -19330,7 +19177,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19413,7 +19261,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19954,10 +19802,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842690475}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 2 (2)
@@ -20186,10 +20030,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 1 (4)
@@ -20323,7 +20163,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21235,10 +21075,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3 (9)
@@ -21308,10 +21144,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -21521,10 +21353,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1342459678}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 2 (2)
@@ -22116,7 +21944,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22201,10 +22030,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -22404,7 +22229,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23468,10 +23293,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3 (2)
@@ -23539,7 +23360,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23622,7 +23443,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23705,7 +23527,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23743,10 +23565,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 650845854}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 1 (4)
@@ -24229,7 +24047,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24629,7 +24447,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25033,10 +24851,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842690475}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 2 (1)
@@ -25352,10 +25166,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3 (1)
@@ -25530,7 +25340,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -26841,10 +26651,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 903418875}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 1 (4)
@@ -27628,10 +27434,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 650845854}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 1 (5)
@@ -28416,10 +28218,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 2 (5)
@@ -28902,7 +28700,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29847,7 +29646,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -30412,10 +30211,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -30992,7 +30787,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -31077,10 +30873,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -31220,7 +31012,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -32182,7 +31974,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -32632,7 +32425,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -33070,7 +32863,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -33610,10 +33403,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 2 (1)
@@ -33852,10 +33641,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -34216,10 +34001,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -34839,10 +34620,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3 (8)
@@ -34979,7 +34756,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35065,10 +34843,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 2 (2)
@@ -35134,10 +34908,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -35313,7 +35083,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35825,7 +35595,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35984,7 +35755,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -36136,10 +35907,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 2 (7)
@@ -36273,7 +36040,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -36311,10 +36078,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 903418875}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 1 (3)
@@ -36493,7 +36256,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -36536,10 +36300,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326687461}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 3 (2)
@@ -36723,10 +36483,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -37596,10 +37352,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842690475}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 2 (4)
@@ -37665,10 +37417,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326687461}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 3 (4)
@@ -37800,10 +37548,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1065109742}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 2 (1)
@@ -37919,7 +37663,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -38068,7 +37812,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -38252,10 +37997,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 1 (1)
@@ -38389,7 +38130,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -38474,10 +38215,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -38897,7 +38634,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39730,10 +39467,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 2 (2)
@@ -39807,10 +39540,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -40814,7 +40543,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -41371,10 +41101,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 2 (3)
@@ -41446,7 +41172,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -41529,7 +41256,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -41567,10 +41294,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842690475}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 2
@@ -41688,10 +41411,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -42365,7 +42084,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: -6922793697723135513, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -42974,10 +42693,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 1 (2)
@@ -43531,7 +43246,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: -6922793697723135513, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -43720,10 +43435,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3 (1)
@@ -43795,7 +43506,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -44111,7 +43822,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -44347,10 +44058,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3 (1)
@@ -44478,10 +44185,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -44971,10 +44674,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 650845854}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 1 (4)
@@ -45169,10 +44868,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3 (8)
@@ -45247,10 +44942,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -45424,7 +45115,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -45509,10 +45200,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -46539,10 +46226,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3 (7)
@@ -46993,7 +46676,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -47141,10 +46824,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3 (3)
@@ -47218,10 +46897,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -47424,10 +47099,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -47689,7 +47360,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -47875,7 +47547,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -48024,7 +47696,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -48445,7 +48117,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: -6922793697723135513, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -48878,7 +48550,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -49144,7 +48817,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: -6922793697723135513, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -49333,10 +49006,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 2 (3)
@@ -49406,10 +49075,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -49585,7 +49250,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -50422,10 +50087,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1065109742}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 1 (1)
@@ -51781,10 +51442,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842690475}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 3 (2)
@@ -51965,7 +51622,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -52170,10 +51828,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -52608,10 +52262,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3 (6)
@@ -52848,7 +52498,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -52933,10 +52583,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -53422,10 +53068,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 629653477}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 3 (1)
@@ -53690,10 +53332,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 650845854}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 1 (4)
@@ -54250,10 +53888,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 903418875}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 1 (3)
@@ -54366,7 +54000,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -54641,10 +54275,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 2 (3)
@@ -54817,10 +54447,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -55303,7 +54929,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -55867,7 +55494,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -56045,10 +55672,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -56315,7 +55938,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -56723,7 +56347,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -57020,10 +56645,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -57369,10 +56990,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 3 (3)
@@ -57589,7 +57206,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -58307,10 +57924,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 1 (3)
@@ -58372,10 +57985,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -58874,10 +58483,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 2 (8)
@@ -59096,10 +58701,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 629653477}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: 'Door size 3 '
@@ -59452,10 +59053,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 629653477}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 3 (3)
@@ -59610,10 +59207,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1326687461}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 1 (3)
@@ -59938,7 +59531,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -59976,10 +59569,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1065109742}
     m_Modifications:
-    - target: {fileID: 4522132109480855813, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7166360704132395604, guid: 6aab81360c60e87468eb85716b9ecf18, type: 3}
       propertyPath: m_Name
       value: Door size 2 (2)
@@ -60784,10 +60373,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 1  (3)
@@ -61240,7 +60825,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -61457,10 +61042,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
-      objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
@@ -61821,7 +61402,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -62326,7 +61908,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: -6922793697723135513, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -62968,10 +62550,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -3353851350922131968, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
       propertyPath: m_Name
       value: Door size 2 (3)
@@ -63263,6 +62841,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
   - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -64473,7 +64052,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -65896,7 +65475,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -71522,7 +71101,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: -2813467912831258332, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -75352,7 +74931,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae7652c5a5c8be741b6704bb73b1a272, type: 2}
+  - {fileID: 2100000, guid: 9d0b924e9b6a4af43ab197f610b9f7c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -75997,7 +75576,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 738772e4f8aa35b40a3ca91212a3320c, type: 2}
+  - {fileID: 9185737683893222716, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
+  - {fileID: 4874126678125670354, guid: b6900135666ec7a49ba29b6804d2ee79, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

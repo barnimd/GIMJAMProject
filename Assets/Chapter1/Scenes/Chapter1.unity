@@ -6368,12 +6368,12 @@ MonoBehaviour:
   Door_UnLock: {fileID: 8300000, guid: 584f811347abd40d98bc4834465c3140, type: 3}
   Item_Grab: {fileID: 8300000, guid: ef79e7898fa80417c842ecde764ab109, type: 3}
   Flashlight: {fileID: 8300000, guid: c5590c5b0196949559b6e74646438e84, type: 3}
-  Audio_Breathing: {fileID: 8300000, guid: 88286ca67a653467398ec9d72c78d826, type: 3}
+  Audio_Breathing: {fileID: 0}
   Audio_TreasureOpen: {fileID: 8300000, guid: 42337c0495bbf487c8844068c36c2e1c, type: 3}
   Audio_BaseBallHit: {fileID: 8300000, guid: dca216d5be2904e2385609eb9801b662, type: 3}
   Note_Reading: {fileID: 8300000, guid: cd6ca2cb535104a3bb39744c179b815a, type: 3}
   Item_Close: {fileID: 8300000, guid: ef79e7898fa80417c842ecde764ab109, type: 3}
-  Audio_Jump: {fileID: 8300000, guid: 5dddeffababda4d67a40e0dc072300d3, type: 3}
+  Audio_Jump: {fileID: 0}
   Audio_PadlockTry: {fileID: 8300000, guid: e9f6923e28fc045338b254c44d4c2b2d, type: 3}
   Audio_Cabinet_Open: {fileID: 8300000, guid: 1f152465649784514ad4542f2e8f4f06, type: 3}
   Audio_Drawer_Open: {fileID: 8300000, guid: 460c54acb821541ef8936cce25ddc3e7, type: 3}
@@ -6390,7 +6390,7 @@ MonoBehaviour:
   Audio_PistolFire: {fileID: 8300000, guid: ec6d2290adcaf4646b4bb5e031ca66cb, type: 3}
   Audio_Healing: {fileID: 8300000, guid: 038997b3f34b94f7f882d559423f1315, type: 3}
   Audio_PistolEmpty: {fileID: 8300000, guid: 77801e190afb446a0891a15592074498, type: 3}
-  Audio_StaminaBreathing: {fileID: 8300000, guid: a0318c51937a642c98fb7e052c5572ef, type: 3}
+  Audio_StaminaBreathing: {fileID: 0}
   Audio_GoLeftRightButton: {fileID: 8300000, guid: 3b5ca5f612ff346f0b33b821cd5ddabb, type: 3}
   Audio_Inventory_Select: {fileID: 8300000, guid: 2a3a37fc7f5724bf8a68eb13c270dc99, type: 3}
   Audio_PressAndHoldMaintainDone: {fileID: 8300000, guid: 0b791e5757535456782e1f1023fe5f20, type: 3}
@@ -61268,7 +61268,7 @@ MonoBehaviour:
   gameType: 0
   controllerType: 0
   blueUVLightAttack: 1
-  canJump: 1
+  canJump: 0
   canCrouch: 0
   canSprint: 1
   canCarryBoxes: 1

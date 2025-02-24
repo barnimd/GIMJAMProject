@@ -59576,6 +59576,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 161194478, guid: c4214c4e92e5742d98682732fd98bf9e, type: 3}
+      propertyPath: canJump
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 161194478, guid: c4214c4e92e5742d98682732fd98bf9e, type: 3}
       propertyPath: canCrouch
       value: 0
       objectReference: {fileID: 0}
@@ -59822,6 +59826,18 @@ PrefabInstance:
     - target: {fileID: 4833396748816020345, guid: c4214c4e92e5742d98682732fd98bf9e, type: 3}
       propertyPath: m_Pitch
       value: 1.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833396748816020346, guid: c4214c4e92e5742d98682732fd98bf9e, type: 3}
+      propertyPath: Audio_Jump
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833396748816020346, guid: c4214c4e92e5742d98682732fd98bf9e, type: 3}
+      propertyPath: Audio_Breathing
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833396748816020346, guid: c4214c4e92e5742d98682732fd98bf9e, type: 3}
+      propertyPath: Audio_StaminaBreathing
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5291919662898847407, guid: c4214c4e92e5742d98682732fd98bf9e, type: 3}
       propertyPath: m_Enabled

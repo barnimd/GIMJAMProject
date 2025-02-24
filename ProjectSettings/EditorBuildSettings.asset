@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Mekanik Bara/Scenes_Bara/SetupNewLevel3.unity
     guid: 3f977287b3cba3a4285ef7d664d33759
+  - enabled: 1
+    path: Assets/Scenesssssss/Final Animation.unity
+    guid: 7a6f398e2a885f84cb1634a56e9d78f7
   m_configObjects: {}

@@ -62,6 +62,7 @@ public class TriggerDialogue : MonoBehaviour
 
         if (story.canContinue)
         {
+
             dialoguePanel.SetActive(true);
             currentSentence = story.Continue();
             isDialogueActive = true;
@@ -103,7 +104,15 @@ public class TriggerDialogue : MonoBehaviour
         foreach (char letter in currentSentence.ToCharArray())
         {
             dialogueText.text += letter;
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.09f);
+        }
+    }
+
+    public void StartDialogueExternally()
+    {
+        if (!isDialogueActive && story.canContinue)
+        {
+            ShowDialogue();
         }
     }
 

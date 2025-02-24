@@ -37,18 +37,19 @@ namespace AdvancedHorrorFPS
         IEnumerator StartToLoadTheGame()
         {
             Panel_Loading.SetActive(true);
-            yield return new WaitForSeconds(1);
-            asyncLoad = SceneManager.LoadSceneAsync(SceneName_GamePlay);
+            yield return new WaitForSeconds(1f);
+            asyncLoad = SceneManager.LoadSceneAsync("Bedroom");
             asyncLoad.allowSceneActivation = false;
             while (progress <= 1f)
             {
                 image_Progress.fillAmount = progress;
                 text_Progress.text = "%" + Mathf.Round(progress * 100f);
                 progress += .01f;
-                yield return new WaitForSeconds(.01f);
+                yield return new WaitForSeconds(.001f);
             }
             ButtonStart.SetActive(true);
             text_Progress.transform.parent.gameObject.SetActive(false);
+            yield return new WaitForSeconds(2f);
         }
 
         public void Click_Start()

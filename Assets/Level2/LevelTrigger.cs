@@ -32,7 +32,7 @@ public class LevelTrigger : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene("SetupNewLevel3");
                 Debug.Log("You Won");
             }
         }

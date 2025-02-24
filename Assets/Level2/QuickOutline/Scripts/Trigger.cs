@@ -11,7 +11,7 @@ public class TriggerDialogue : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip dialogueAudioMP3;
     [SerializeField][Range(0f, 1f)] private float soundVolume = 0.5f;
-    [SerializeField] private float textDisplayDuration = 6f;
+    [SerializeField] private float textDisplayDuration = 10f;
     [SerializeField] private float pauseDuration = 3f;
     [SerializeField] private float fadeOutDuration = 1f;
     private Story story;

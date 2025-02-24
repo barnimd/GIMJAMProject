@@ -6,7 +6,7 @@ public class LigthingMadu : MonoBehaviour
 {
     public Light flickerLight;
     public float minTime = 0.1f;
-    public float maxTime = 0.5f;
+    public float maxTime = 1.5f;
     private Coroutine flickerRoutine;
 
     public bool IsLightOn => flickerLight.enabled; // Public property to check light state

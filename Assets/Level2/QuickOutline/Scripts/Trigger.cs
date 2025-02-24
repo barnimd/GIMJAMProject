@@ -104,7 +104,7 @@ public class TriggerDialogue : MonoBehaviour
         foreach (char letter in currentSentence.ToCharArray())
         {
             dialogueText.text += letter;
-            yield return new WaitForSeconds(0.09f);
+            yield return new WaitForSeconds(0.07f);
         }
     }
 

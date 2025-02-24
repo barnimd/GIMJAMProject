@@ -61003,7 +61003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameType: 0
   controllerType: 0
-  blueUVLightAttack: 0
+  blueUVLightAttack: 1
   canJump: 1
   canCrouch: 0
   canSprint: 1

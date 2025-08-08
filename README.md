@@ -69,3 +69,8 @@ The many doors create a sense of mystery and disorientation, emphasizing the sur
    git clone https://github.com/barnimd/Raturu-Home-Fever-GIMJAMProject-.git
 2. Open the project in Unity.
 3. Press Play to start the game prototype in the editor.
+
+## Note
+
+For more detailed information about the project, please visit:  
+[https://www.adityapamungkas.site/raturu]

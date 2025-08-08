@@ -59,8 +59,7 @@ The many doors create a sense of mystery and disorientation, emphasizing the sur
 
 ## Tech Stack  
 - **Game Engine**: Unity  
-- **Programming Language**: C#  
-- **Tools**: Blender (3D modeling), Audacity (audio), Git & GitHub (version control)  
+- **Tools**: Blender (3D modeling), Git & GitHub (version control)  
 
 ---
 
